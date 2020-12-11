@@ -1,0 +1,181 @@
+.navbar .container .navbar-nav .nav-link {
+    margin-right: 50px;
+    color: #fff;
+    transition: .3s;
+}
+
+.navbar .container .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+nav {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+}
+
+body .navbar .container .navbar-brand {
+    color: #ffc107;
+}
+
+body {
+    background-color: rgb(61, 61, 61);
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./adarkbook.jpg) 0px -150px;
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+.jumbotron .container {
+    margin-top: 100px;
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+}
+
+.jumbotron p {
+    color: #fff;
+}
+
+
+/* PROJECT */
+#project {
+    margin: 70px 0;
+    padding-top: 70px;
+    color: #fff;
+}
+
+#project .col-md-12 {
+    color: #ffc107;
+}
+
+.img-thumbnail {
+    margin: 0;
+    padding: 0;
+}
+
+#project .row {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+/* EVENT */
+#event {
+    margin: 70px 0;
+    padding-top: 70px;
+}
+
+#event .col-md-12 {
+    color: #ffc107;
+    margin-bottom: 50px;
+}
+
+#event .row {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* MORE */
+#more {
+    padding-top: 70px;
+    color: #fff;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./adarkbook.jpg) 0px -150px;
+    background-size: cover;
+    background-position-y: -150px;
+    margin-bottom: -30px;
+}
+
+#more h1 {
+    color: #ffc107;
+    margin-bottom: 70px;
+}
+
+.col-md-5 {
+    color: black;
+}
+
+.address-contact {
+    padding: 20px;
+}
+
+
+/* ICON-SOSMED */
+.more .icon-sosmed ul li i{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.icon-sosmed {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-sosmed ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    list-style: none;
+
+}
+
+.icon-sosmed ul li a {
+    color: #fff;
+}
+
+
+.icon-sosmed ul li a i {
+    font-size: 50px;
+    opacity: .5;
+    transition: .3s;
+}
+
+.icon-sosmed ul li a:hover i {
+    opacity: 1;
+}
+
+
+/* FOOTER */
+.footer p {
+    color: #fff;
+    text-align: center;
+    transform: translateY(-30px);
+    font-style: italic;
+}
+
+@media screen and (max-width: 576px) {
+    .jumbotron {
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .jumbotron .container {
+        margin-top: 30px;
+    }
+
+    .display-3 {
+        font-size: 24px !important;
+    }
+
+    .lead mt-3 mb-5 {
+        font-size: 16px !important;
+    }
+
+    #project {
+        margin-top : -100px !important;
+        padding-top: -100px !important;
+    }
+}
